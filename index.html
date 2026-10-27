@@ -316,19 +316,6 @@
     </style>
   </head>
   <body>
-
-    <!-- ===== MOCKUP ANNOTATION STRIP (not part of the design) ===== -->
-    <div class="mockbar">
-      <div class="wrap">
-        <b>MOCKUP REDESIGN</b>
-        <span>tdsign.app — arah: hub portofolio + router</span>
-        <span class="sep">·</span>
-        <span>Halaman ini pratinjau desain, bukan situs live</span>
-        <span class="sep">·</span>
-        <a href="#catatan">Lihat catatan redesign ↓</a>
-      </div>
-    </div>
-
     <!-- ===== SITE HEADER ===== -->
     <header class="sitehead">
       <div class="wrap">
@@ -573,7 +560,25 @@
     </section>
 
     <!-- ===== ABOUT ===== -->
-    
+    <section class="block" id="about">
+      <div class="wrap">
+        <p class="secno">04 — ABOUT</p>
+        <div class="sechead"><h2>One builder, whole stack.</h2></div>
+        <div class="about">
+          <div>
+            <p>I'm <b>Teguh Sanjaya</b> — founder and builder behind tdsign and the BuildBySan studio. Products go from the first schema migration to a signed release on the Play Store: <b>design, backend, frontend, and the infrastructure underneath</b>, all owned end-to-end.</p>
+            <p>Everything here runs on real infrastructure — <b>Oracle Cloud, AWS, and Tencent Cloud</b> — with automated pipelines, monitoring, and zero-downtime migrations. Most products start as a problem hit repeatedly in daily life in Indonesia; each one above is the answer that shipped.</p>
+          </div>
+          <div class="stackbox">
+            <h4>STACK</h4>
+            <div class="stack">
+              <span>Flutter</span><span>Kotlin · Compose</span><span>Next.js</span><span>FastAPI</span><span>Python</span><span>Node</span><span>Tailwind</span><span>Claude API</span><span>n8n</span><span>FCM</span><span>nginx</span><span>Oracle Cloud</span><span>AWS</span><span>Tencent Cloud</span>
+            </div>
+            <p class="also">Also building <b>Aifiency</b> — AI agents that solve business problems and cut operational busywork. Client automation work runs through there and Upwork.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ===== FINAL CTA ===== -->
     <div class="finalcta">
@@ -602,9 +607,6 @@
         <p class="fine">© 2026 TEGUH SANJAYA · TDSIGN / BUILDBYSAN STUDIO · BLUVIA · MOMEN · WHISPR · STORESYNC · DUEID · GLOWUP · BRANDDROP</p>
       </div>
     </footer>
-
-    
-
     <script>
       (function () {
         var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
